@@ -68,7 +68,7 @@ body{
 #timeinput{
     grid-column: 1/2;
     grid-row: 4/5;
-    width: 100px;
+    width: 125px;
     height:25px;
 
 }
@@ -76,9 +76,8 @@ body{
 #dateinput{
     grid-column: 2/3;
     grid-row: 4/5;
-    width: 130px;
     justify-self: start;
-    width: 100px;
+    width: 125px;
     height:25px;
 
 
