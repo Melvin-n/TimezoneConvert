@@ -1,0 +1,119 @@
+body{
+     color: whitesmoke;
+    display:flex;
+    justify-content:center;
+    background:linear-gradient(90deg, rgb(7, 6, 6), rgba(0, 0, 0, 0.877));
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+}
+#bg-image{
+    background-image: url('https://cdn.europosters.eu/image/1300/art-photo/black-and-white-detailed-world-map-with-cities-milo-i95880.jpg');  
+    filter:blur(6px) brightness(20%) opacity(0.9);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:stretch;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+#container{
+    margin-top: 50px;
+    align-content: center;
+    height: 70vh;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(10%);
+    width: 300px;
+    padding: 2rem 2rem 2rem 2rem;
+    border: 1px solid rgba(245, 245, 245, 0.568);
+    z-index: 5;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+#timezoneinputto{
+    width: 300px;
+    padding: 5px 5px 5px 20px;
+}
+
+
+
+#title{
+    text-decoration: underline;
+    grid-column: 1/ 3;
+    grid-row: 1/ 2;
+    width: 300px;
+}
+
+#current{
+    grid-column: 2/ 3;
+    grid-row: 2/ 3;
+    width: 100px;
+    padding-bottom: 40px;
+}
+#currenttimetitle{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 40px;
+
+}
+
+#from{
+    grid-column: 1/ 3;
+    grid-row: 3/4;
+    margin-top: 10px;
+}
+
+#timeinput{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100px;
+    height:25px;
+
+}
+
+#dateinput{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 130px;
+    justify-self: start;
+    width: 100px;
+    height:25px;
+
+
+}
+
+#text{
+    grid-column: 1/3;
+    grid-row: 5/6;
+    margin-top: 10px;
+
+}
+
+#timezoneinputto{
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+
+#enter{
+    grid-column: 1/3;
+    grid-row: 7/8;
+    width: 80px;
+    height: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+#newtime{
+    grid-column: 1/3;
+    grid-row: 8/9;
+    justify-self: center;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
